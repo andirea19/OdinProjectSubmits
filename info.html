@@ -1,28 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sign Up Form</title>
+  <title>Sign-Up Form</title>
    <style>
     .error-message {
       color: red;
     }
   </style>
-  <script>
-    function validatePassword() {
-      var password = document.getElementById("password").value;
-      var confirmPassword = document.getElementById("confirm_password").value;
-      var errorElement = document.getElementById("password-error");
-
-      if (password !== confirmPassword) {
-        errorElement.innerHTML = "Passwords do not match.";
-        return false;
-      } else {
-        errorElement.innerHTML = "";
-        return true;
-      }
-    }
-  </script>
 </head>
+  <script src="myscript.js"></script>
 <body>
   <h2>Sign Up</h2>
   <form action="process_form.php" method="POST">
