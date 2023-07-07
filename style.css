@@ -6,3 +6,25 @@
 .form-control {
   border-color: #ff0000;
 }
+
+ body {
+    background-color: #f7f7f7;
+  }
+
+  /* Custom sidebar styles */
+  .sidebar {
+    background-color: #ffffff;
+    /* ... */
+  }
+
+  /* Custom main content styles */
+  .main-content {
+    background-color: #ffffff;
+    /* ... */
+  }
+
+  /* Custom footer styles */
+  footer {
+    background-color: #f0f0f0;
+    /* ... */
+  }
