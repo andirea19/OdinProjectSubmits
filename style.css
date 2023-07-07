@@ -1,0 +1,8 @@
+.form-label {
+  font-weight: bold;
+}
+
+/* Custom form input styles */
+.form-control {
+  border-color: #ff0000;
+}
